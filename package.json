@@ -1,0 +1,33 @@
+{
+  "author": "Pixelastic <tim@pixelastic.com>",
+  "dependencies": {
+    "norska": "0.5.24"
+  },
+  "description": "Generate slides with HTML and CSS",
+  "devDependencies": {
+    "aberlaas": "0.9.1"
+  },
+  "engines": {
+    "node": "13.1.0",
+    "yarn": "1.19.1"
+  },
+  "files": [
+    "build/"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "sov",
+  "repository": "git@github.com:pixelastic/sov.git",
+  "scripts": {
+    "build": "./scripts/build",
+    "build:watch": "./scripts/build-watch",
+    "ci": "./scripts/ci",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  },
+  "version": "1.0.0"
+}
