@@ -1,0 +1,5 @@
+@import 'tailwindcss/base';
+@import 'norska/reset';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'sov/style';

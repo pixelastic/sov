@@ -1,0 +1,17 @@
+extends /_includes/_layouts/sov
+
+block config
+  - pageTitle = "Your presentation title"
+  - pageDescription = "Your presentation description"
+  - pageTwitter = "Your Twitter handle"
+  - pageAuthor = "Your name"
+  - pageUrl = "Your url"
+
+block slides
+  +slide.bg-blue
+    p This is your first slide
+  +slide.bg-green
+    p This is your second slide
+  +slide.bg-black.white
+    p This is your laste slide
+

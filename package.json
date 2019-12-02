@@ -14,7 +14,9 @@
   },
   "files": [
     "build/",
-    "bin/"
+    "bin/",
+    "css/",
+    "style.css"
   ],
   "license": "MIT",
   "main": "build/index.js",
