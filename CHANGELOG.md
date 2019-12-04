@@ -1,3 +1,11 @@
+## [0.0.7](https://github.com/pixelastic/sov/compare/0.0.6...0.0.7) (2019-12-04)
+
+
+### Bug Fixes
+
+* **prism:** Remove prism ([27e09b5](https://github.com/pixelastic/sov/commit/27e09b52ce6cc28b7039e4c7276bb22238a44836))
+* **release:** Update release script ([558d5b0](https://github.com/pixelastic/sov/commit/558d5b0a9158b5d20779e785cde8ed7f7ee0ef65))
+
 ## [0.0.6](https://github.com/pixelastic/sov/compare/0.0.5...0.0.6) (2019-12-04)
 
 
