@@ -1,3 +1,10 @@
+## [0.0.6](https://github.com/pixelastic/sov/compare/0.0.5...0.0.6) (2019-12-04)
+
+
+### Features
+
+* **templates:** Default resizing ([92ff747](https://github.com/pixelastic/sov/commit/92ff747d17fcbf742ef65ac6ee31f481130cce65))
+
 ## [0.0.5](https://github.com/pixelastic/sov/compare/0.0.4...0.0.5) (2019-12-02)
 
 ## [0.0.4](https://github.com/pixelastic/sov/compare/0.0.3...0.0.4) (2019-12-02)
