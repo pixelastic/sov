@@ -1,29 +1,43 @@
-/* Resize width automatically based on height */
-.w-device-aspect-ratio {
-  width: 100vh;
+/**
+ * This forces an element to take as much space in the viewport as possible,
+ * while still maintaining an aspect ratio (like 16:9).
+ * This works by making its width and height to the maximum using 100vw and
+ * 100vh, then restrict it using max-width and max-height to a ratio of the
+ * other dimension.
+ * For example, for a ratio of 3:2, the width cannot be larger than 1.5 (3/2) times
+ * the height wile the height cannot be larger than 0.66 times the width (2/3).
+ **/
+.device-aspect-ratio {
+  @apply w-100vw h-100vh;
 }
+
 @media (device-aspect-ratio: 3/2) {
-  .w-device-aspect-ratio {
-    width: 150vh;
+  .device-aspect-ratio {
+    max-width: 150vh;
+    max-height: 66.67vw;
   }
 }
 @media (device-aspect-ratio: 4/3) {
-  .w-device-aspect-ratio {
-    width: 133vh;
+  .device-aspect-ratio {
+    max-width: 133vh;
+    max-height: 75vw;
   }
 }
 @media (device-aspect-ratio: 5/4) {
-  .w-device-aspect-ratio {
-    width: 125vh;
+  .device-aspect-ratio {
+    max-width: 125vh;
+    max-height: 80vw;
   }
 }
 @media (device-aspect-ratio: 16/9) {
-  .w-device-aspect-ratio {
-    width: 177.77vh;
+  .device-aspect-ratio {
+    max-width: 177.77vh;
+    max-height: 56.25vw;
   }
 }
 @media (device-aspect-ratio: 16/10) {
-  .w-device-aspect-ratio {
-    width: 160vh;
+  .device-aspect-ratio {
+    max-width: 160vh;
+    max-height: 62.5vw;
   }
 }

@@ -6,7 +6,7 @@
   "dependencies": {
     "firost": "0.19.3",
     "golgoth": "0.6.2",
-    "norska": "0.5.26"
+    "norska": "0.5.27"
   },
   "description": "Generate slides with HTML and CSS",
   "devDependencies": {

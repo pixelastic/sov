@@ -1,0 +1,12 @@
+/**
+ * The root (html) font size is dynamically adjusted based on the --scale-ratio
+ * variable.
+ * As all measurement in `rem` are relative to the html font size, changing this
+ * value will in turn scale all margin/padding/height/width defined using rem.
+ *
+ * The ratio itself is changed dynamically by JavaScript by listening to the
+ * resize of the main wrapper (the one with its ratio constricted)
+ **/
+html {
+  font-size: calc(1rem * var(--scale-ratio, 1));
+}
