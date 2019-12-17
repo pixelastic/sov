@@ -1,3 +1,5 @@
+## [0.0.10](https://github.com/pixelastic/sov/compare/0.0.9...0.0.10) (2019-12-17)
+
 ## [0.0.9](https://github.com/pixelastic/sov/compare/0.0.8...0.0.9) (2019-12-17)
 
 
