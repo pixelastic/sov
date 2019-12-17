@@ -1,5 +1,11 @@
 mixin slide()
   .slide.h-100p 
-    .h-base-100p.h-crop-8vh
-      .h-100p.p-1(class=attributes.class, style=attributes.style)
+    .h-base-100p.h-crop-8p
+      .h-100p.flcnw.text-1(class=attributes.class, style=attributes.style)
         block
+
+mixin title()
+  .text-3.green.bold.amaranth.text-shadow.fln.pl-1
+    span(class=attributes.class)
+      block
+

@@ -1,0 +1,40 @@
+.codeblock {
+  @apply block whitespace-pre;
+  @apply bg-gray-9 white;
+}
+.code {
+  @apply bg-gray-9 p-02 red-5;
+}
+
+.js-codeblock {
+  .hljs-tag {
+    @apply green-6;
+  }
+  .hljs-attr {
+    @apply red-5;
+  }
+  .hljs-string {
+    @apply blue-5;
+  }
+  .hljs-comment {
+    @apply gray;
+  }
+  .hljs-number {
+    @apply blue-4 bold;
+  }
+  .hljs-keyword {
+    @apply orange;
+  }
+  .hljs-built_in {
+    @apply yellow-4 bold;
+  }
+  &.language-css,
+  &.css {
+    .hljs-selector-class {
+      @apply green-3;
+    }
+    .hljs-selector-tag {
+      @apply green-4;
+    }
+  }
+}

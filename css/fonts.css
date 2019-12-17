@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'AmaranthRegular';
+  src: url('./assets/fonts/AmaranthRegular.eot');
+  src: url('./assets/fonts/AmaranthRegular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/AmaranthRegular.woff') format('woff'),
+    url('./assets/fonts/AmaranthRegular.ttf') format('truetype'),
+    url('./assets/fonts/AmaranthRegular.svg#amaranthregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmaranthRegular';
+  src: url('./assets/fonts/AmaranthBold.eot');
+  src: url('./assets/fonts/AmaranthBold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/AmaranthBold.woff') format('woff'),
+    url('./assets/fonts/AmaranthBold.ttf') format('truetype'),
+    url('./assets/fonts/AmaranthBold.svg#amaranthregular') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.amaranth {
+  font-family: AmaranthRegular;
+}

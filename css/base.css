@@ -1,0 +1,39 @@
+/* Custom notes that can be displayed if needed */
+.notes {
+  @apply absolute top-0 right-0 p-3 hidden;
+  @apply bg-black bg-opacity-50p text-1 font-normal white;
+}
+
+/**
+ * By default:
+ *  - All slides are displayed in column
+ *  - All steps are displayed
+ * With JavaScript enabled:
+ *  - Only one slide is visible at a time
+ *  - Steps are hidden by default
+ **/
+.js-loaded {
+  @apply overflow-hidden;
+  .slide {
+    @apply hidden border-0;
+  }
+  .js-slide-current {
+    @apply block;
+  }
+  /* Show notes when pressing H */
+  [data-notes-visible='1'] .js-slide-current .notes {
+    @apply block;
+  }
+}
+/* If steps are enabled (default), hide them first, and only show them when
+ * navigating through them
+ **/
+.js-enable-steps {
+  *[data-step] {
+    @apply opacity-0;
+  }
+  .js-step-visible {
+    @apply opacity-100p;
+    transition: opacity 0.2s ease-in-out;
+  }
+}

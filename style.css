@@ -1,3 +1,5 @@
+@import './css/fonts';
+@import './css/highlight';
 @import './css/device-aspect-ratio';
 @import './css/dynamic-font-size';
-@import 'highlight.js/styles/github.css';
+@import './css/base';
