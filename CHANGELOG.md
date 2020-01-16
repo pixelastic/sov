@@ -1,3 +1,10 @@
+## [0.0.13](https://github.com/pixelastic/sov/compare/0.0.12...0.0.13) (2020-01-16)
+
+
+### Bug Fixes
+
+* **release:** Put norska back in deps ([9045ef0](https://github.com/pixelastic/sov/commit/9045ef0547dbcd290478e2b25fae95458f09a2b8))
+
 ## [0.0.12](https://github.com/pixelastic/sov/compare/0.0.11...0.0.12) (2020-01-16)
 
 
