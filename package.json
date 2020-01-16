@@ -17,6 +17,7 @@
     "build/",
     "bin/",
     "css/",
+    "templates/",
     "style.css"
   ],
   "license": "MIT",
