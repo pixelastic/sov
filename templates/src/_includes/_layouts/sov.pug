@@ -1,18 +1,50 @@
-extends /_includes/_layouts/core
 include /_includes/mixins
 
-block content
-  .flcnw.flc.h-100vh.w-100vw
-    .js-wrapper.device-aspect-ratio.bg-white.relative.overflow-hidden.shadow-3
-      block slides
-      .absolute.bottom-0.left-0.right-0.h-8p.bg-gray-8.white
-        .js-time-indicator.z-1.absolute.top-0.left-0.min-w-1.h-03.rounded-br-full.bg-gradient-x.bg-gradient-to-green.transition.transition-width.transition-02.transition-linear
-        .fln.flrnw
-          a.fla.flcnw.flccv.p-1.text-1.amaranth.text-shadow.text-shadow-gray-1(href=pageUrl)=pageTitle
-          .fln.flcnw.px-5.flcnw.flc.gray-3.text-01
-            .fln.flcnw
-              .fln=pageAuthor
-              a.fln.green(href=`https://twitter.com/${pageTwitter}`)
-                .inline @
-                .inline.hover_underline=pageTwitter
+block config
+  //- Empty on purpose so each page can update its variables
+
+- pageAuthor = pageAuthor || data.site.defaultAuthor
+- pageDescription = pageDescription || data.site.defaultDescription
+- pageImage = pageImage || data.site.defaultImage
+- pageTitle = pageTitle || data.site.defaultTitle
+- pageTwitter = pageTwitter || data.site.defaultTwitter
+- pageUrl = pageUrl || data.site.defaultUrl
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta('http-equiv'='x-ua-compatible', content='ie-edge')
+    title=pageTitle
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    meta(name='description', content=pageDescription)
+    meta(name='twitter:card', content='summary_large_image')
+    meta(name='twitter:site', content=pageTwitter)
+    meta(name='twitter:creator', content=pageTwitter)
+    meta(property='og:url', content=pageUrl)
+    meta(property='og:title', content=pageTitle)
+    meta(property='og:description', content=pageDescription)
+    meta(property='og:image', content=`${pageUrl}${pageImage}`)
+    script!=tweaks.ensureUrlTrailingSlashSource
+    link(rel="shortcut icon", href=`./favicon.png`)
+    link(type="text/css", rel="stylesheet", href=revv(`${url.pathToRoot}style.css`))
+    body
+      block content
+        .flcnw.flc.h-100vh.w-100vw
+          .js-wrapper.device-aspect-ratio.bg-white.relative.overflow-hidden.shadow-3
+            block slides
+            .absolute.bottom-0.left-0.right-0.h-8p.bg-gray-8.white
+              .js-time-indicator.z-1.absolute.top-0.left-0.min-w-1.h-03.rounded-br-full.bg-gradient-x.bg-gradient-to-green.transition.transition-width.transition-02.transition-linear
+              .fln.flrnw
+                a.fla.flcnw.flccv.p-1.text-1.amaranth.text-shadow.text-shadow-gray-1(href=pageUrl)=pageTitle
+                .fln.flcnw.px-5.gray-3.text-01.pt-1
+                  .fln.lh-1=pageAuthor
+                  a.fln.green.lh-1(href=`https://twitter.com/${pageTwitter}`)
+                    .inline @
+                    .inline.hover_underline=pageTwitter
+
+      each jsFile in runtime.jsFiles
+        script(src=`${url.pathToRoot}${jsFile}`)
+
+
 
