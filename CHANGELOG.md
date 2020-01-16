@@ -1,3 +1,10 @@
+## [0.0.11](https://github.com/pixelastic/sov/compare/0.0.10...0.0.11) (2020-01-16)
+
+
+### Bug Fixes
+
+* **init:** Release templates ([2ce18a2](https://github.com/pixelastic/sov/commit/2ce18a294e9641f223740273becb9dbff3d61bdf))
+
 ## [0.0.10](https://github.com/pixelastic/sov/compare/0.0.9...0.0.10) (2019-12-17)
 
 ## [0.0.9](https://github.com/pixelastic/sov/compare/0.0.8...0.0.9) (2019-12-17)
