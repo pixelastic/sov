@@ -1,3 +1,10 @@
+## [0.0.12](https://github.com/pixelastic/sov/compare/0.0.11...0.0.12) (2020-01-16)
+
+
+### Bug Fixes
+
+* **init:** Simplify layout, add script ([364c260](https://github.com/pixelastic/sov/commit/364c26003e5561d6983e8e772c3293d9808c70c1))
+
 ## [0.0.11](https://github.com/pixelastic/sov/compare/0.0.10...0.0.11) (2020-01-16)
 
 
