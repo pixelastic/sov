@@ -6,12 +6,12 @@
   "dependencies": {
     "firost": "0.19.3",
     "golgoth": "0.6.2",
-    "highlight.js": "9.16.2",
-    "norska": "0.5.29"
+    "highlight.js": "9.16.2"
   },
   "description": "Generate slides with HTML and CSS",
   "devDependencies": {
-    "aberlaas": "0.10.2"
+    "aberlaas": "0.11.3",
+    "norska": "0.5.37"
   },
   "files": [
     "build/",
