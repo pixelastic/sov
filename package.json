@@ -11,7 +11,7 @@
   },
   "description": "Generate slides with HTML and CSS",
   "devDependencies": {
-    "aberlaas": "0.10.2"
+    "aberlaas": "0.11.3"
   },
   "files": [
     "build/",
