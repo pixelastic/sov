@@ -1,3 +1,10 @@
+## [0.0.14](https://github.com/pixelastic/sov/compare/0.0.13...0.0.14) (2020-01-17)
+
+
+### Features
+
+* **templates:** Improve scaffolding ([b517c4d](https://github.com/pixelastic/sov/commit/b517c4d79f46d8ac3a920837c1b1a73c0392f829))
+
 ## [0.0.13](https://github.com/pixelastic/sov/compare/0.0.12...0.0.13) (2020-01-16)
 
 
