@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "firost": "0.19.3",
-    "golgoth": "0.6.2",
+    "golgoth": "0.6.4",
     "highlight.js": "9.17.1",
     "norska": "0.5.38"
   },
