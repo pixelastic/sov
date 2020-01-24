@@ -1,5 +1,6 @@
 @import './css/fonts';
 @import './css/highlight';
 @import './css/device-aspect-ratio';
+@import './css/orientation';
 @import './css/dynamic-font-size';
 @import './css/base';
