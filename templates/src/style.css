@@ -3,3 +3,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import 'sov/style';
+
+/* Uncomment to load your own custom font */
+@import '_styles/fonts.css';
