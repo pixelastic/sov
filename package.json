@@ -4,14 +4,14 @@
     "sov": "bin/sov"
   },
   "dependencies": {
-    "firost": "0.19.3",
-    "golgoth": "0.6.2",
+    "firost": "1.1.1",
+    "golgoth": "1.0.4",
     "highlight.js": "9.17.1",
     "norska": "0.5.38"
   },
   "description": "Generate slides with HTML and CSS",
   "devDependencies": {
-    "aberlaas": "0.11.3"
+    "aberlaas": "1.0.3"
   },
   "files": [
     "build/",
