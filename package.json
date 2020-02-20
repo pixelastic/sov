@@ -4,6 +4,7 @@
     "sov": "bin/sov"
   },
   "dependencies": {
+    "esm": "3.2.25",
     "firost": "1.1.1",
     "golgoth": "1.0.4",
     "highlight.js": "9.17.1",
