@@ -14,19 +14,17 @@
     "aberlaas": "1.0.3"
   },
   "files": [
-    "build/",
+    "lib/",
     "bin/",
     "css/",
     "templates/",
     "style.css"
   ],
   "license": "MIT",
-  "main": "build/index.js",
+  "main": "lib/main.js",
   "name": "sov",
   "repository": "git@github.com:pixelastic/sov.git",
   "scripts": {
-    "build": "./scripts/build",
-    "build:watch": "./scripts/build-watch",
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
