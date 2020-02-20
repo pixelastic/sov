@@ -1,2 +1,2 @@
-import sov from 'sov/build/frontend';
+import sov from 'sov/lib/frontend';
 sov.init();

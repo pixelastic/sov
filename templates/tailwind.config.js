@@ -1,5 +1,5 @@
 /* eslint-disable import/no-commonjs */
-const config = require('sov/build/tailwind.config.js');
+const config = require('sov/lib/tailwind.config.js');
 module.exports = {
   ...config,
 };
