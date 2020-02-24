@@ -1,2 +1,2 @@
-import sov from 'sov/lib/frontend';
+const sov = require('sov/lib/frontend');
 sov.init();
