@@ -14,12 +14,13 @@
     "aberlaas": "1.2.1"
   },
   "files": [
-    "lib/",
+    "lib/*.js",
+    "lib/commands/*.js",
+    "lib/frontend/*.js",
     "bin/",
     "css/",
     "templates/",
-    "style.css",
-    "!**/__tests__"
+    "style.css"
   ],
   "license": "MIT",
   "main": "lib/main.js",
