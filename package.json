@@ -19,7 +19,7 @@
     "css/",
     "templates/",
     "style.css",
-    "!**/__tests__/"
+    "!**/__tests__"
   ],
   "license": "MIT",
   "main": "lib/main.js",
