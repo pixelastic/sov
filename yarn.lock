@@ -2493,17 +2493,10 @@ caller-path@^2.0.0:
 
 callsite@1.0.0:
   version "1.0.0"
-<<<<<<< HEAD
-  resolved "https://registry.yarnpkg.com/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
-  integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
-
-callsites@3.1.0, callsites@^3.0.0:
-=======
   resolved "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz#280398e5d664bd74038b6f0905153e6e8af1bc20"
   integrity sha1-KAOY5dZkvXQDi28JBRU+borxvCA=
 
 callsites@3.1.0, callsites@^3.0.0, callsites@^3.1.0:
->>>>>>> fix(norska): Use norska version with correct binary
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
@@ -2817,15 +2810,6 @@ cliui@^3.0.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
-
-cliui@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
-  integrity sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==
-  dependencies:
-    string-width "^3.1.0"
-    strip-ansi "^5.2.0"
-    wrap-ansi "^5.1.0"
 
 cliui@^6.0.0:
   version "6.0.0"
@@ -4418,11 +4402,7 @@ fast-glob@^3.0.3:
 
 fast-glob@^3.1.1:
   version "3.2.2"
-<<<<<<< HEAD
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.2.tgz#ade1a9d91148965d4bf7c51f72e1ca662d32e63d"
-=======
   resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.2.tgz#ade1a9d91148965d4bf7c51f72e1ca662d32e63d"
->>>>>>> fix(norska): Use norska version with correct binary
   integrity sha512-UDV82o4uQyljznxwMxyVRJgZZt3O5wENYojjzbaGEGZgeOxkLFf+V4cnUD+krzb2F72E18RhamkMZ7AdeggF7A==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
@@ -4571,7 +4551,6 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-<<<<<<< HEAD
 find-versions@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/find-versions/-/find-versions-3.2.0.tgz#10297f98030a786829681690545ef659ed1d254e"
@@ -4579,16 +4558,10 @@ find-versions@^3.2.0:
   dependencies:
     semver-regex "^2.0.0"
 
-firost@0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.21.0.tgz#1c669b01d32fa0edb4615c073639f29b167f5a13"
-  integrity sha512-o5xvLwj/C/aqx1tWitHctNK0/3dla4mjzndt7JfpXzKIXzqz5A1x8tV7RCFV24VRrDthbK3ul4/57Ob+U0lONg==
-=======
 firost@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/firost/-/firost-1.2.1.tgz#b13726fb83c0ff076b83e1adbbe417477a9a81c1"
   integrity sha512-vek/xWQ/TEQwLiRjDKA49QvU+uQ2E60i/2wm9DCfIJF1h3vr6VxlEVJFvulEMhwTSlMNyGRd5vSbaWTkJOsiBw==
->>>>>>> fix(norska): Use norska version with correct binary
   dependencies:
     chokidar "3.3.1"
     esm "3.2.25"
@@ -4596,6 +4569,27 @@ firost@1.2.1:
     execa "4.0.0"
     fs-extra "8.1.0"
     globby "10.0.2"
+    golgoth "1.1.1"
+    inquirer "7.0.4"
+    is-glob "4.0.1"
+    json-stable-stringify "1.0.1"
+    nanoid "2.1.11"
+    ora "4.0.3"
+    shelljs "0.8.3"
+    which "2.0.2"
+
+firost@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/firost/-/firost-1.3.0.tgz#49baf87f39d4f6be5d7714dc54ee087202a77bd6"
+  integrity sha512-HPzc6UHxddLRenI6N74mzaA8OW2Fm/QVHYEvlbZUN+78RrIFYaJV6YvVQebOphjYAxXGi/3vB5F7eiUzlngREw==
+  dependencies:
+    callsite "1.0.0"
+    chokidar "3.3.1"
+    esm "3.2.25"
+    eventemitter2 "6.0.0"
+    execa "4.0.0"
+    fs-extra "8.1.0"
+    globby "11.0.0"
     golgoth "1.1.1"
     inquirer "7.0.4"
     is-glob "4.0.1"
@@ -4613,27 +4607,6 @@ firost@1.3.1:
     callsite "1.0.0"
     chokidar "3.3.1"
     clear-module "4.1.0"
-    esm "3.2.25"
-    eventemitter2 "6.0.0"
-    execa "4.0.0"
-    fs-extra "8.1.0"
-    globby "11.0.0"
-    golgoth "1.1.1"
-    inquirer "7.0.4"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "2.1.11"
-    ora "4.0.3"
-    shelljs "0.8.3"
-    which "2.0.2"
-
-firost@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-1.3.0.tgz#49baf87f39d4f6be5d7714dc54ee087202a77bd6"
-  integrity sha512-HPzc6UHxddLRenI6N74mzaA8OW2Fm/QVHYEvlbZUN+78RrIFYaJV6YvVQebOphjYAxXGi/3vB5F7eiUzlngREw==
-  dependencies:
-    callsite "1.0.0"
-    chokidar "3.3.1"
     esm "3.2.25"
     eventemitter2 "6.0.0"
     execa "4.0.0"
@@ -5011,15 +4984,9 @@ globby@10.0.2:
     merge2 "^1.2.3"
     slash "^3.0.0"
 
-<<<<<<< HEAD
 globby@11.0.0, globby@^11.0.0:
   version "11.0.0"
-  resolved "https://registry.yarnpkg.com/globby/-/globby-11.0.0.tgz#56fd0e9f0d4f8fb0c456f1ab0dee96e1380bc154"
-=======
-globby@11.0.0:
-  version "11.0.0"
   resolved "https://registry.npmjs.org/globby/-/globby-11.0.0.tgz#56fd0e9f0d4f8fb0c456f1ab0dee96e1380bc154"
->>>>>>> fix(norska): Use norska version with correct binary
   integrity sha512-iuehFnR3xu5wBBtm4xi0dMe92Ob87ufyu/dHwpDYfbcpYpIbrO5OnS8M1vWvrBhSGEJ3/Ecj7gnX76P8YxpPEg==
   dependencies:
     array-union "^2.1.0"
@@ -10484,7 +10451,7 @@ string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string-width@^3.0.0, string-width@^3.1.0:
+string-width@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
   integrity sha512-vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w==
@@ -10577,7 +10544,7 @@ strip-ansi@^4.0.0:
   dependencies:
     ansi-regex "^3.0.0"
 
-strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
+strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
   integrity sha512-DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==
@@ -11801,15 +11768,6 @@ wrap-ansi@^3.0.1:
     string-width "^2.1.1"
     strip-ansi "^4.0.0"
 
-wrap-ansi@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-5.1.0.tgz#1fd1f67235d5b6d0fee781056001bfb694c03b09"
-  integrity sha512-QC1/iN/2/RPVJ5jYK8BGttj5z83LmSKmvbvrXPNCLZSEb32KKVDJDl/MOt2N01qU2H/FkzEa9PKto1BqDjtd7Q==
-  dependencies:
-    ansi-styles "^3.2.0"
-    string-width "^3.0.0"
-    strip-ansi "^5.0.0"
-
 wrap-ansi@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
@@ -11946,14 +11904,6 @@ yargs-parser@^10.0.0:
   dependencies:
     camelcase "^4.1.0"
 
-yargs-parser@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.npmjs.org/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
-  integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
 yargs-parser@^16.1.0:
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-16.1.0.tgz#73747d53ae187e7b8dbe333f95714c76ea00ecf1"
@@ -11964,7 +11914,7 @@ yargs-parser@^16.1.0:
 
 yargs@^14.0.0:
   version "14.2.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
+  resolved "https://registry.npmjs.org/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
   integrity sha512-/4ld+4VV5RnrynMhPZJ/ZpOCGSCeghMykZ3BhdFBDa9Wy/RH6uEGNWDJog+aUlq+9OM1CFTgtYRW5Is1Po9NOA==
   dependencies:
     cliui "^5.0.0"
@@ -11979,17 +11929,10 @@ yargs@^14.0.0:
     y18n "^4.0.0"
     yargs-parser "^15.0.0"
 
-<<<<<<< HEAD
 yargs@^15.0.0:
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.1.0.tgz#e111381f5830e863a89550bd4b136bb6a5f37219"
   integrity sha512-T39FNN1b6hCW4SOIk1XyTOWxtXdcen0t+XYrysQmChzSipvhBO8Bj0nK1ozAasdk24dNWuMZvr4k24nz+8HHLg==
-=======
-yargs@^14.0.0:
-  version "14.2.2"
-  resolved "https://registry.npmjs.org/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
-  integrity sha512-/4ld+4VV5RnrynMhPZJ/ZpOCGSCeghMykZ3BhdFBDa9Wy/RH6uEGNWDJog+aUlq+9OM1CFTgtYRW5Is1Po9NOA==
->>>>>>> fix(norska): Use norska version with correct binary
   dependencies:
     cliui "^6.0.0"
     decamelize "^1.2.0"
