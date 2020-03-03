@@ -7831,10 +7831,10 @@ norska-assets@^0.7.0:
     golgoth "1.1.1"
     norska-config "^0.7.0"
 
-norska-cms@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-0.7.0.tgz#e2121286b77676bab40450c97bfda927f6786116"
-  integrity sha512-K/6PWTZxXZkZKNHvDxrxVRZ75vBza/WrWeqLDTLJW7g71bTWJdCScYX/ngRU7D7HYm3CRGHh7Z8/pi5AwAal2g==
+norska-cms@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-0.7.2.tgz#140c15f6bfb5f3fa33d375faa90618bbf666916e"
+  integrity sha512-7kGUjlUaN8RWlPqAF5zJNT0DaxV1yKl9Dp+tb3YH0lFHog94SQFc1we/eSlfrvBqyhut+/78YDxawcSNe0nB2Q==
   dependencies:
     connect-livereload "0.6.1"
     express "4.17.1"
@@ -7941,17 +7941,17 @@ norska-revv@^0.7.0:
     norska-helper "^0.7.0"
     rev-hash "^3.0.0"
 
-norska@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-0.7.0.tgz#ddb8f37998b442376eee191b3936e837f41f5c6b"
-  integrity sha512-ST3Hv4XEf//vRn2p6j6eTCJzQ+FfrkuOnP9E+vuVxgP90/YhvrMFOtdKQa99CHkezu+33zhVDDF0PfXhqNsYBg==
+norska@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-0.7.2.tgz#5a6131ad14baeec4b5c97b48e2864f9ac59e3232"
+  integrity sha512-G5rxQMaWtyI4HICzCietE9pORQZN8IN55yxLfpwS8DwExD+uC9mHsATZOY1w44TCbIKg1Z6LrWelqh3A1Qq+7w==
   dependencies:
     firost "1.3.1"
     golgoth "1.1.1"
     live-server "1.2.1"
     minimist "1.2.0"
     norska-assets "^0.7.0"
-    norska-cms "^0.7.0"
+    norska-cms "^0.7.2"
     norska-config "^0.7.0"
     norska-css "^0.7.0"
     norska-helper "^0.7.0"
