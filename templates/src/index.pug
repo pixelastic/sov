@@ -8,10 +8,21 @@ block config
   - pageUrl = "Your url"
 
 block slides
-  +slide.bg-blue
-    p This is your first slide
+  +slide_background({
+    picture:"./assets/images/road.jpg", 
+    opacity:"90p"
+  })
+    .fla.flcnw.flc.white
+      .amaranth.text-7.bold.text-shadow.text-center Your first slide
+
   +slide.bg-green
     p This is your second slide
-  +slide.bg-black.white
-    p This is your last slide
+
+  +slide_background({
+    picture:"./assets/images/nz-dock.jpg", 
+    opacity:"90p"
+  })
+    .fla.flcnw.flc.white
+      .amaranth.text-9.bold.text-shadow Thank you
+      a.amaranth.text-7.bold.text-shadow.text-center.hover_underline(href=`https://twitter.com/${pageTwitter}`)=`@${pageTwitter}`
 

@@ -4,6 +4,17 @@ mixin slide()
       .h-100p.flcnw.text-1(class=attributes.class, style=attributes.style)
         block
 
+mixin slide_background(args)
+  - bgColor = _.get(args, 'color', 'green')
+  - bgAlign = _.get(args, 'align', 'bottom')
+  - bgOpacity = _.get(args, 'opacity', '75p')
+  - bgType = _.get(args, 'type', 'cover')
+  - grayscaleClass = _.get(args, 'grayscale', true) ? 'grayscale' : '';
+  +slide.relative
+    .absolute.inset-0.bg-no-repeat(class=`${grayscaleClass} bg-${bgType}` style=`background-image:url(${args.picture})` class=`bg-${bgAlign}`)
+    .absolute.inset-0.flcnw(class=`bg-${bgColor} bg-opacity-${bgOpacity}`)
+      block
+
 mixin title()
   .text-3.green.bold.amaranth.text-shadow.fln.pl-1
     span(class=attributes.class)
