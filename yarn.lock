@@ -8455,10 +8455,10 @@ norska-helper@^0.9.0:
   dependencies:
     golgoth "1.2.0"
 
-norska-html@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.1.tgz#7ac75d6694b87c41c79fa8a0c1544e5a882a593c"
-  integrity sha512-vni6+jc1DmRq4AvE9fBV1v0/G813RkxVGM+oTKfBpjYdpdwU7bMdl0cNp+akPKnGSDgldb2UUbyvQwTRJLDQzA==
+norska-html@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.3.tgz#f14145d71f50b12aa9322b5a25383dcac746b379"
+  integrity sha512-QMrrUFDw/blpwHtXDlKGt04AccmVPXyXi4JzOLAccjYC9671ySjP92uNxRNmm2NQRCJ9Po5ebTqiMdHLZdYdOw==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "1.5.0"
@@ -8472,10 +8472,10 @@ norska-html@^0.9.1:
     norska-revv "^0.9.0"
     pug "2.0.4"
 
-norska-init@^0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-0.9.2.tgz#f5cf4d6c538056f7c68ddb6dcbc8f5736a9193a9"
-  integrity sha512-wgstS0CpaRombtiq/gQCtt7TX9U+KAPY9xSaNb483K5eGMcV3BROI3YIxWJZlZrt11huFnh4wqggN0nG5lBQNg==
+norska-init@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-0.9.3.tgz#bff924a9852940918263ec236f367b5d2cad84ab"
+  integrity sha512-FWb0biP4Ml09ee4bENXhS/l0QtPyzxX89/DiNRGv8tVqlxAzigshH9MxNMLNAmjOJRRfp/FnX/Q2mW/3j9Ulrw==
   dependencies:
     firost "1.5.0"
     golgoth "1.2.0"
@@ -8506,10 +8506,10 @@ norska-revv@^0.9.0:
     norska-helper "^0.9.0"
     rev-hash "^3.0.0"
 
-norska@0.9.2:
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.2.tgz#6b5da771ff501625f1d0f47867f25921cc4c2605"
-  integrity sha512-KVJEj2pP4Lpdr7cD8FaWCVd5ucrH0t/sGnVy3lZVW3GoIqNelZ46Mk4tg8t+AzLdkHOmerxLUe3wkQHgXcSa1A==
+norska@0.9.3:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.3.tgz#d4ebe0b00840730133a54cb8814b98854d339016"
+  integrity sha512-8mEnX3IGcYLqphqNsW0tXzWKBpIABFmpCwm0uXgQvADxq0t/+WpOtqFdEF4V56QITLdq2FMt8qhyCghQ4KZuNQ==
   dependencies:
     firost "1.5.0"
     golgoth "1.2.0"
@@ -8521,8 +8521,8 @@ norska@0.9.2:
     norska-css "^0.9.1"
     norska-frontend "^0.9.1"
     norska-helper "^0.9.0"
-    norska-html "^0.9.1"
-    norska-init "^0.9.2"
+    norska-html "^0.9.3"
+    norska-init "^0.9.3"
     norska-js "^0.9.0"
     norska-revv "^0.9.0"
 
