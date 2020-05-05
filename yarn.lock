@@ -8438,10 +8438,10 @@ norska-data@^0.9.0:
     golgoth "1.2.0"
     norska-config "^0.9.0"
 
-norska-frontend@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/norska-frontend/-/norska-frontend-0.9.1.tgz#1c56c4316847a2b4c5810af0786346b6d3dd9040"
-  integrity sha512-AX71su+ZKiGv3kIiceTZd9sN9ZMStwrwY/j4L0l1Bb2PemdPs1lm/49luzdp2mHUz74AMMAHMgMHIWgebE5pcQ==
+norska-frontend@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/norska-frontend/-/norska-frontend-0.9.8.tgz#53d8a7d4d5e1ae865b4313e090229758f0d9c503"
+  integrity sha512-qOIYqlUFJscpg4G2c3tRAKPlJ6MnajjPX3Kd4kyu6WxWdkuXUEy0o0KV4toSOyBspgz8Ck79ZCNylII41LuWmw==
   dependencies:
     algoliasearch "4.2.0"
     instantsearch.js "4.4.1"
@@ -8455,10 +8455,10 @@ norska-helper@^0.9.0:
   dependencies:
     golgoth "1.2.0"
 
-norska-html@^0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.7.tgz#0908a2d0ed01cbcf45c36f6e7f9ff68087a69161"
-  integrity sha512-XFM7r4uBmOrWEcKDvJEICuu04nA2UWcS5oGuXIVL60A9f8C+kPvOKrbUME5oZXugzaSjMqHLBIR0MyuY+fYKsg==
+norska-html@^0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.8.tgz#524ae9096d17d24101c68f3099acdd58a010486e"
+  integrity sha512-WehSXgL26c/A8jmOcTJ1dczEpNi6LUoG2Vi4cP3wxDbXWt6XSCxthO6jcVrQC+WJQFSgwtS+DqUHcB5DW05IBw==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "1.5.0"
@@ -8467,7 +8467,7 @@ norska-html@^0.9.7:
     markdown-it-highlightjs "3.1.0"
     norska-config "^0.9.0"
     norska-data "^0.9.0"
-    norska-frontend "^0.9.1"
+    norska-frontend "^0.9.8"
     norska-helper "^0.9.0"
     norska-revv "^0.9.0"
     pug "2.0.4"
@@ -8506,10 +8506,10 @@ norska-revv@^0.9.0:
     norska-helper "^0.9.0"
     rev-hash "^3.0.0"
 
-norska@0.9.7:
-  version "0.9.7"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.7.tgz#325f6131de2b422da55d14ced4bc4ff3a1a8c114"
-  integrity sha512-/Ob3pw3K/xmM+gbTSPR6dhrcl2YckzQTx+vKH9d6JCrGPcVILojpvoH/bqgU4yw/chFW3pPVTKtb6WpdWa5gGg==
+norska@0.9.8:
+  version "0.9.8"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.8.tgz#60d6ff18b92865b50e48be09bcc175128e95dc8c"
+  integrity sha512-WLanQNOEF71Nh9DTs6zEO2Uv9+uJscnBk2v3ATOH/TyPH6k5ZEES88GdsJ+BhZo7yBzIzy+0arFUZZ4PXS3JBw==
   dependencies:
     firost "1.5.0"
     golgoth "1.2.0"
@@ -8519,9 +8519,9 @@ norska@0.9.7:
     norska-cms "^0.9.6"
     norska-config "^0.9.0"
     norska-css "^0.9.6"
-    norska-frontend "^0.9.1"
+    norska-frontend "^0.9.8"
     norska-helper "^0.9.0"
-    norska-html "^0.9.7"
+    norska-html "^0.9.8"
     norska-init "^0.9.5"
     norska-js "^0.9.0"
     norska-revv "^0.9.0"
