@@ -8385,10 +8385,10 @@ norska-assets@^0.9.0:
     golgoth "1.2.0"
     norska-config "^0.9.0"
 
-norska-cms@^0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-0.9.9.tgz#6feda555312cb75d774803205cf6fe965e9188bb"
-  integrity sha512-Rw8Cmxs0BcqfrXq7QGg1M0wlcepkNArEe23cA1tryvSYzDv3svi5qpr72Epl+T8wsFy3gPlHJDLnLfLZmcWv4Q==
+norska-cms@^0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-0.9.10.tgz#c011375fcdf45af354c64ec3521faf9227905821"
+  integrity sha512-MthzmfBqWKO26fywUt9COCR9dgcyX897e1eHktKYuKx4uCoMp3PT6me68yhJKkGtcRCJBpMruo3WLGnPZqEKtQ==
   dependencies:
     connect-livereload "0.6.1"
     express "4.17.1"
@@ -8398,7 +8398,7 @@ norska-cms@^0.9.9:
     multer "1.4.2"
     nodemon "1.19.4"
     norska-config "^0.9.0"
-    norska-css "^0.9.9"
+    norska-css "^0.9.10"
     norska-helper "^0.9.0"
     open "6.4.0"
 
@@ -8410,10 +8410,10 @@ norska-config@^0.9.0:
     firost "1.5.0"
     golgoth "1.2.0"
 
-norska-css@^0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-0.9.9.tgz#58ab766be672a9f88275ad883d9fbd1b1ad440f9"
-  integrity sha512-ObGPz1/NLlfOn6/iPe0MMFPbzRPpCnBVg3YEIVcwEPelLlpWEcNNQ+Wjrf+FHBDcC2+uPWaripPTP9q2P/3PKg==
+norska-css@^0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-0.9.10.tgz#eb898b4708ba61512f4ef7b144ced865a471450c"
+  integrity sha512-boyLrlRin+WpvpikO5yTCnckv7JoFGAbd8Ks30X2uAEBS5OMVvkWBypkpwsGQAvRRQp8F304BwD1yoUb0UQ5Tw==
   dependencies:
     "@fullhuman/postcss-purgecss" "1.3.0"
     autoprefixer "9.7.6"
@@ -8427,7 +8427,7 @@ norska-css@^0.9.9:
     postcss-nested "4.2.1"
     purge-from-html "1.0.3"
     tailwind-config-norska "0.2.1"
-    tailwindcss "1.4.4"
+    tailwindcss "1.4.5"
 
 norska-data@^0.9.0:
   version "0.9.0"
@@ -8455,10 +8455,10 @@ norska-helper@^0.9.0:
   dependencies:
     golgoth "1.2.0"
 
-norska-html@^0.9.8:
-  version "0.9.8"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.8.tgz#524ae9096d17d24101c68f3099acdd58a010486e"
-  integrity sha512-WehSXgL26c/A8jmOcTJ1dczEpNi6LUoG2Vi4cP3wxDbXWt6XSCxthO6jcVrQC+WJQFSgwtS+DqUHcB5DW05IBw==
+norska-html@^0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-0.9.10.tgz#d326bceb1572eb1c583b88eda459c1c0b673e5c8"
+  integrity sha512-8CA4DKEOz6dBYQXTYI6upktCB6fzeshbkrb0LjEqbS3VOrIvzA65/TT5l4XW0i7AYQnJKYkLfpoe5m0KC+4Hdw==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "1.5.0"
@@ -8506,22 +8506,22 @@ norska-revv@^0.9.0:
     norska-helper "^0.9.0"
     rev-hash "^3.0.0"
 
-norska@0.9.9:
-  version "0.9.9"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.9.tgz#c025c024a1ab34c49a807a826a607d6745dd4657"
-  integrity sha512-nlDS3G+QLBpAAgcb/R7zmaqv+x77gZgV+PGZ7NwYlwsjehyVd2KPUeKBVGuKEA/G8xmPM8nljlvQYINww1SYmg==
+norska@0.9.10:
+  version "0.9.10"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-0.9.10.tgz#ade3ba0bd211d696d1308cfd2b21841ea51926fc"
+  integrity sha512-7Ju0+Vz8JPJkw6pzmj4Zbq1JxepUPvt0z1SBwjD92aMZv8rRUJ3kMBunBgtgEArr585VrpizpgUR/Ie4yjYNtw==
   dependencies:
     firost "1.5.0"
     golgoth "1.2.0"
     live-server "1.2.1"
     minimist "1.2.5"
     norska-assets "^0.9.0"
-    norska-cms "^0.9.9"
+    norska-cms "^0.9.10"
     norska-config "^0.9.0"
-    norska-css "^0.9.9"
+    norska-css "^0.9.10"
     norska-frontend "^0.9.8"
     norska-helper "^0.9.0"
-    norska-html "^0.9.8"
+    norska-html "^0.9.10"
     norska-init "^0.9.5"
     norska-js "^0.9.0"
     norska-revv "^0.9.0"
@@ -11460,10 +11460,10 @@ tailwind-config-norska@0.2.1:
     golgoth "1.2.0"
     hex-rgb "4.1.0"
 
-tailwindcss@1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.4.4.tgz#a866f281f99ee7058fa3301ef0ce34b16141deb6"
-  integrity sha512-49Hy/+WnqQhxtGGjcGlhRlE7+hooX2A0/JOeJnA78fCEqDRlhURWujHY05aCl+lJ6G2qQ+1wlQTg4PqMPUcFVA==
+tailwindcss@1.4.5:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.4.5.tgz#893ccddd226dc264f2bd53acd11e58077149e11d"
+  integrity sha512-MJW96Rz3G3RrFDbDuQCU893y4bf5hMWeVbMgcCqUfLNPbO9wRogDibCEvdKitD6aX9Y90SDT2FOKD17+WmIFLQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
