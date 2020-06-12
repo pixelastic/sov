@@ -7,7 +7,7 @@
     "firost": "1.5.1",
     "golgoth": "1.2.0",
     "highlight.js": "9.18.1",
-    "norska": "0.9.17"
+    "norska": "0.9.18"
   },
   "description": "Generate slides with HTML and CSS",
   "devDependencies": {
