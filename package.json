@@ -6,7 +6,7 @@
   "dependencies": {
     "firost": "1.7.0",
     "golgoth": "1.2.0",
-    "highlight.js": "9.18.1",
+    "highlight.js": "10.1.1",
     "norska": "0.9.19"
   },
   "description": "Generate slides with HTML and CSS",
