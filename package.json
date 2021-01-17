@@ -4,7 +4,7 @@
     "sov": "bin/sov"
   },
   "dependencies": {
-    "firost": "2.6.1",
+    "firost": "2.7.0",
     "golgoth": "2.0.0",
     "highlight.js": "10.5.0",
     "norska": "1.9.0"
