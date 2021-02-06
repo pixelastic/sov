@@ -11254,19 +11254,19 @@ normalize.css@^8.0.1:
   resolved "https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
   integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
-norska-assets@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-assets/-/norska-assets-1.9.0.tgz#b2176becf3530eda794ef68d300e6fe5907a0a4b"
-  integrity sha512-1r5/6L6r4kaUbyBVRu63VfrfoU52rklFgoFVcMyiP+rJwnFkjFKmytLmxLsV2b5LU/+CtMM1JTcqY6DYOh3toQ==
+norska-assets@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-assets/-/norska-assets-1.11.0.tgz#dd88bc0fef4e0abbe86bc18d0e0a8ec6a377769f"
+  integrity sha512-NshwByG6hZ5LMfBbZSkh5wlXRiJEQgbGqWB04ppiAyPIjZCFa+SYYIl9ra663ULarWz95+i2tPQF4tG20rR+WQ==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
 
-norska-cms@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-1.9.0.tgz#b440e3a8fcd628f1da49cba426ac904ad59d7590"
-  integrity sha512-yddpe/cfIP45tNUwjNf8WA8hSKIdvx1FhqoVcM19bhVwfs6db9hrph2yBD30TW9U1j4X5PfaaGjHaaOCnCoH/w==
+norska-cms@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-cms/-/norska-cms-1.11.0.tgz#963d3c8275cb5e870a4d576f400a7f928752f33e"
+  integrity sha512-XljOb6fJLeUfbA0USznaAkCiVwPxtzoFKBaFQBPx9QMe3zK01xnM6MGTfXvdZAAUh5N9xzajOCvxrjD1r2Rq2A==
   dependencies:
     connect-livereload "0.6.1"
     express "4.17.1"
@@ -11275,32 +11275,32 @@ norska-cms@^1.9.0:
     livereload "0.9.1"
     multer "1.4.2"
     nodemon "2.0.6"
-    norska-config "^1.9.0"
-    norska-css "^1.9.0"
+    norska-config "^1.11.0"
+    norska-css "^1.11.0"
     norska-helper "^1.9.0"
     open "7.3.0"
 
-norska-config@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-config/-/norska-config-1.9.0.tgz#51d325f1730c1eaa4f8a4aa4fb1cea4433c26a6a"
-  integrity sha512-+Iw6O+xqUic0qiSaafnuOFA9OKa22GouQB7ebVpbCGeF7X1d5QGsIzflaRcesFebpKEgwWbt4NOOReMtudnGpw==
+norska-config@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-config/-/norska-config-1.11.0.tgz#ee27244961aae01283fff6c80df5be4e2b89a383"
+  integrity sha512-W50k9t63giso/KR1a1dtfurC5pBqx25icU0siCBckRueM0f8GXwQprWpQirMjFdv8ipqPoNUiMsBoc8sDWhfUA==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
     norska-helper "^1.9.0"
-    norska-theme-default "^1.7.0"
+    norska-theme-default "^1.11.0"
 
-norska-css@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-1.9.0.tgz#825d5f50760e23ac3c776bb5729c0aaf4d4dcb9e"
-  integrity sha512-RLulUTzLN1P1JD8syVDeLWAOpZZ+9g/Iwhki4NBckMkKD4M+NUJYefH1ggpiiasOxWePTc7/9IR46DTrKnrEVg==
+norska-css@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-css/-/norska-css-1.11.0.tgz#b1dd3187f3a72b742f0fe5193258c51a85f2ace7"
+  integrity sha512-+Z3H6clpZVturmvwyNG2v9b6ClYnCPytpinspbZgF0ObUpPdH8B4PqPWoLb+IEhDYKLBtkLRd5WiBwT/T5bO6g==
   dependencies:
     "@tailwindcss/typography" "0.2.0"
     autoprefixer "10.1.0"
     firost "2.6.1"
     golgoth "2.0.0"
     hex-rgb "4.2.0"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
     norska-helper "^1.9.0"
     postcss "8.1.10"
     postcss-clean "1.1.0"
@@ -11308,14 +11308,14 @@ norska-css@^1.9.0:
     postcss-nested "5.0.1"
     tailwindcss "1.8.10"
 
-norska-data@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-data/-/norska-data-1.9.0.tgz#1e07f0e2c936f0a223798dd0a8c0ca9aa369054f"
-  integrity sha512-vskwv7SY0lOGvBRmqntoLc66KpzTwuOaGUl11DnFqZtIl+OjZFBmPJJRIAT8orxBVGJh62YUHi+Is1a+vuQr5A==
+norska-data@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-data/-/norska-data-1.11.0.tgz#8b51adab719b88d45342abef43bb1d8864de7246"
+  integrity sha512-o7rUYmlG6BchBkr200UTh8SFutxdxBL15W52AAlIxGFvphfut613hyM8wJOs3EOPhobdqlRseyJsxM/FGZZaIg==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
 
 norska-frontend@^1.9.0:
   version "1.9.0"
@@ -11336,10 +11336,10 @@ norska-helper@^1.9.0:
     firost "2.6.1"
     golgoth "2.0.0"
 
-norska-html@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-1.9.0.tgz#554c4bf610323bc90f7c2baf7bd13035728d273c"
-  integrity sha512-MSmzDRkdIUr2+/oUnK+d23I4rjdtiZQt0JajQCkdTRl+sSVZlxDVSGglmwPuX6F3ZTI/hyGnbaJwWuZojC26OA==
+norska-html@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-html/-/norska-html-1.11.0.tgz#e39dae73df780833112952959c8ddf100bb6f138"
+  integrity sha512-iT5xlQUxXMW5ABx90rwz9NtBfF4/Cwk43Cm0GmCEUNN7dYvYHMaKx3TOgoLTn2AJ9p75GolQQ1SK8WAOpr0zXA==
   dependencies:
     ensure-url-trailing-slash "0.1.4"
     firost "2.6.1"
@@ -11351,8 +11351,8 @@ norska-html@^1.9.0:
     jstransformer-markdown-it "2.1.0"
     markdown-it "12.0.3"
     markdown-it-highlightjs "3.4.0"
-    norska-config "^1.9.0"
-    norska-data "^1.9.0"
+    norska-config "^1.11.0"
+    norska-data "^1.11.0"
     norska-frontend "^1.9.0"
     norska-helper "^1.9.0"
     norska-image-proxy "^1.5.2"
@@ -11364,78 +11364,78 @@ norska-image-proxy@^1.5.2:
   resolved "https://registry.yarnpkg.com/norska-image-proxy/-/norska-image-proxy-1.5.2.tgz#d981d9b748980ab055b6bbc996cc2f6dd8e425a4"
   integrity sha512-kQdXrpTgOObZdnPXtPUxA6PK4IjdZtJ/Qs/ubI0GZUwNqAgSIJS8Dm0eXO607QJxK2aZeq6kLkBoFxaaXUWvcw==
 
-norska-init@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-1.10.0.tgz#ed2c51a89a27d4e52d7706ca8dbebd3a99c7404f"
-  integrity sha512-neGLQuYDxXn8q/R4aRSIMHctuwLFIA2lQqgMdFqjFjcffVDPcJKyHCfRsFLANWHSgaHb1/WhNyG+qoZdFDI24A==
+norska-init@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-init/-/norska-init-1.11.0.tgz#ac59385b07f6bf4eb1093f5bafa4361b24eea1f2"
+  integrity sha512-UMe7Udz4a/XMKYyKxzD2VmzEmIICqieDUG3TUfhl49iXWujSb5MX8/SRA9PVLa7UcU4Srq44zJmnZO0NOmaewQ==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
-    norska-config "^1.9.0"
-    norska-netlify "^1.10.0"
+    norska-config "^1.11.0"
+    norska-netlify "^1.11.0"
 
-norska-js@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-js/-/norska-js-1.9.0.tgz#3a14d0002a38c4744bd4ab462f9337472685e474"
-  integrity sha512-1I7YR3SoqRovRjos0sC26l2cTS43hTePRdbJa5KKrOTgvwgUwUJRvv66uYqkYqmsw4FjCOc3tENrpLfEQNmQhg==
+norska-js@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-js/-/norska-js-1.11.0.tgz#4f722fdfbb95eacdd2e7024b13e2df88615123cf"
+  integrity sha512-ULFp1npN3u/K5jZQjeaf3/vTmfh1uEJlYx6arGPgUhm5rgJG9GAIuxwXIziVMnqxehAbb8ZZq83DGpPeCz7nIQ==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
     norska-helper "^1.9.0"
     pug-loader "^2.4.0"
     webpack "4.44.2"
 
-norska-netlify@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/norska-netlify/-/norska-netlify-1.10.0.tgz#386897dedd1649f4b2f4d8809feab61892fb5255"
-  integrity sha512-PeyXuh+dzygVLHHzxVrNngZ8dYrqJ5lqVX1dqHv0m7ToBANcz2ma9mHU0sQd6rULI0QV6Z1te0G3pXsOS0/Wkw==
+norska-netlify@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-netlify/-/norska-netlify-1.11.0.tgz#8dcd435191ae1ba6a28f36ac9ad6fde0e4fd3124"
+  integrity sha512-T4sFkdpslwJV5Cqixok5XyuKJwYyy4kwMs+A6wNWN07eTaPRL+Z5AOcK9l+B3+jWS1Y3cRaBoUOcyQFBGL042w==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
     multimatch "5.0.0"
     netlify "6.0.4"
     netlify-cli "2.69.9"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
     norska-helper "^1.9.0"
 
-norska-revv@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/norska-revv/-/norska-revv-1.9.0.tgz#f7aa25b1d7f3f7dddca08e64a63ff333bb2e323e"
-  integrity sha512-okz6SCWVV5cv6t52xjHqcXHQRP+9//ff+CfY5Fjt9n7zB67zlK625TrYAhUa7EptDCx9HSGDYRpdwrH4MKp43Q==
+norska-revv@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-revv/-/norska-revv-1.11.0.tgz#199a0e2e5dca2a5454985f21ee7eee8578d12de4"
+  integrity sha512-mwX6BCzy8YVTOnfZI1TonLFFFhGVuPO5U480qMhbJ1HZBRMwSPSe/7ktlzWwqNvm505WTGhckUxWJiVFTU5z8g==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
-    norska-config "^1.9.0"
+    norska-config "^1.11.0"
     norska-helper "^1.9.0"
     rev-hash "^3.0.0"
 
-norska-theme-default@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-1.7.0.tgz#7092da95a13646c891fa16ffd72d5a1d16dee4e4"
-  integrity sha512-pSVikq2ZSBfiOCOBtAmZzrrPbv5gF9XZOHEyCuW6NLT2RH4w340qeLr1TxhjMKrKvfKb4aVPR7LplKd/78s/+g==
+norska-theme-default@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska-theme-default/-/norska-theme-default-1.11.0.tgz#effc8529a9163f4e6d2a627b30d915baea2bf4fa"
+  integrity sha512-cIhg+7uG5syVbnNJnrnNWunTQJ76fJb9PTfB2Iy4RXu46M+basLVy5nBnNX0LkT1ouVLv8c+8DHUniVfVthyjA==
 
-norska@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/norska/-/norska-1.10.0.tgz#a70d29b14ef1d2ccc9a8c669a94545ce0a4c57e0"
-  integrity sha512-KxUm68IXhSQKOAOKiFtlvZr3ywy7nVGus3925wMbEZqSdNk8bHiLTm978jT+ggGk/y2UuNnvpmfhFQ4G07rjwg==
+norska@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/norska/-/norska-1.11.0.tgz#63fb70aeb1f0b96a7482af2dda7fe29aa480716c"
+  integrity sha512-k5s+2BYSnSt+TOhYvYQ5hzBXnt0PDUxfdOoiDQIzSrUYb/IE3AM8G+ZcJ3rP3QVvN1uQIswwjeBYGcq0B9UhfQ==
   dependencies:
     firost "2.6.1"
     golgoth "2.0.0"
     live-server "1.2.1"
     minimist "1.2.5"
-    norska-assets "^1.9.0"
-    norska-cms "^1.9.0"
-    norska-config "^1.9.0"
-    norska-css "^1.9.0"
+    norska-assets "^1.11.0"
+    norska-cms "^1.11.0"
+    norska-config "^1.11.0"
+    norska-css "^1.11.0"
     norska-frontend "^1.9.0"
     norska-helper "^1.9.0"
-    norska-html "^1.9.0"
+    norska-html "^1.11.0"
     norska-image-proxy "^1.5.2"
-    norska-init "^1.10.0"
-    norska-js "^1.9.0"
-    norska-netlify "^1.10.0"
-    norska-revv "^1.9.0"
+    norska-init "^1.11.0"
+    norska-js "^1.11.0"
+    norska-netlify "^1.11.0"
+    norska-revv "^1.11.0"
 
 np@7.2.0:
   version "7.2.0"
